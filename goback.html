@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="goBack()">Go 1 pages back</button>
+
+<p>Notice that clicking on the "Go 2 pages back" button here will not result in any action, because there is no previous URL in the history list.</p>
+
+<script>
+function goBack() {
+    window.history.go(-1);
+}
+</script>
+
+
+<div class="btn-group  pull-right  custom-btn-group">
+							<a href="javascript: window.history.go(-1)">
+							<h4>Go back</h4> 
+							</a>
+					 	</div>
+</body>
+</html>
